@@ -1,0 +1,396 @@
+2026-04-02 22:24:31,311 - INFO - Initiating batch fetch for 11 POI categories.
+2026-04-02 22:24:31,311 - INFO - [1/11] Fetching type: 090102
+2026-04-02 22:24:31,311 - INFO - Starting POI fetch for type: 090102 at 117.188582,39.149033
+2026-04-02 22:24:31,563 - INFO - Page 1 fetched successfully (25 items)
+2026-04-02 22:24:32,038 - INFO - Page 2 fetched successfully (13 items)
+2026-04-02 22:24:32,490 - INFO - Fetch completed. Total items: 38
+2026-04-02 22:24:32,791 - INFO - [2/11] Fetching type: 090300
+2026-04-02 22:24:32,792 - INFO - Starting POI fetch for type: 090300 at 117.188582,39.149033
+2026-04-02 22:24:33,125 - INFO - Page 1 fetched successfully (25 items)
+2026-04-02 22:24:33,611 - INFO - Page 2 fetched successfully (25 items)
+2026-04-02 22:24:34,094 - INFO - Page 3 fetched successfully (25 items)
+2026-04-02 22:24:34,596 - INFO - Page 4 fetched successfully (25 items)
+2026-04-02 22:24:35,065 - INFO - Page 5 fetched successfully (18 items)
+2026-04-02 22:24:35,537 - INFO - Fetch completed. Total items: 118
+2026-04-02 22:24:35,864 - INFO - [3/11] Fetching type: 090400
+2026-04-02 22:24:35,864 - INFO - Starting POI fetch for type: 090400 at 117.188582,39.149033
+2026-04-02 22:24:36,088 - INFO - Page 1 fetched successfully (6 items)
+2026-04-02 22:24:36,577 - INFO - Fetch completed. Total items: 6
+2026-04-02 22:24:36,903 - INFO - [4/11] Fetching type: 090202
+2026-04-02 22:24:36,904 - INFO - Starting POI fetch for type: 090202 at 117.188582,39.149033
+2026-04-02 22:24:37,171 - INFO - Page 1 fetched successfully (25 items)
+2026-04-02 22:24:37,664 - INFO - Page 2 fetched successfully (25 items)
+2026-04-02 22:24:38,181 - INFO - Page 3 fetched successfully (25 items)
+2026-04-02 22:24:38,705 - INFO - Page 4 fetched successfully (25 items)
+2026-04-02 22:24:39,160 - INFO - Fetch completed. Total items: 100
+2026-04-02 22:24:39,487 - INFO - [5/11] Fetching type: 090203
+2026-04-02 22:24:39,487 - INFO - Starting POI fetch for type: 090203 at 117.188582,39.149033
+2026-04-02 22:24:39,749 - INFO - Page 1 fetched successfully (14 items)
+2026-04-02 22:24:40,203 - INFO - Fetch completed. Total items: 14
+2026-04-02 22:24:40,528 - INFO - [6/11] Fetching type: 090205
+2026-04-02 22:24:40,528 - INFO - Starting POI fetch for type: 090205 at 117.188582,39.149033
+2026-04-02 22:24:40,728 - INFO - Fetch completed. Total items: 0
+2026-04-02 22:24:41,052 - INFO - [7/11] Fetching type: 090206
+2026-04-02 22:24:41,053 - INFO - Starting POI fetch for type: 090206 at 117.188582,39.149033
+2026-04-02 22:24:41,242 - INFO - Fetch completed. Total items: 0
+2026-04-02 22:24:41,567 - INFO - [8/11] Fetching type: 090207
+2026-04-02 22:24:41,568 - INFO - Starting POI fetch for type: 090207 at 117.188582,39.149033
+2026-04-02 22:24:41,806 - INFO - Page 1 fetched successfully (1 items)
+2026-04-02 22:24:42,266 - INFO - Fetch completed. Total items: 1
+2026-04-02 22:24:42,592 - INFO - [9/11] Fetching type: 090208
+2026-04-02 22:24:42,592 - INFO - Starting POI fetch for type: 090208 at 117.188582,39.149033
+2026-04-02 22:24:42,785 - INFO - Fetch completed. Total items: 0
+2026-04-02 22:24:43,102 - INFO - [10/11] Fetching type: 090100
+2026-04-02 22:24:43,103 - INFO - Starting POI fetch for type: 090100 at 117.188582,39.149033
+2026-04-02 22:24:43,362 - INFO - Page 1 fetched successfully (25 items)
+2026-04-02 22:24:43,837 - INFO - Page 2 fetched successfully (25 items)
+2026-04-02 22:24:44,311 - INFO - Page 3 fetched successfully (25 items)
+2026-04-02 22:24:44,790 - INFO - Page 4 fetched successfully (25 items)
+2026-04-02 22:24:45,299 - INFO - Page 5 fetched successfully (25 items)
+2026-04-02 22:24:45,766 - INFO - Page 6 fetched successfully (17 items)
+2026-04-02 22:24:46,208 - INFO - Fetch completed. Total items: 142
+2026-04-02 22:24:46,533 - INFO - [11/11] Fetching type: 090101
+2026-04-02 22:24:46,534 - INFO - Starting POI fetch for type: 090101 at 117.188582,39.149033
+2026-04-02 22:24:46,785 - INFO - Page 1 fetched successfully (25 items)
+2026-04-02 22:24:47,249 - INFO - Page 2 fetched successfully (25 items)
+2026-04-02 22:24:47,716 - INFO - Page 3 fetched successfully (13 items)
+2026-04-02 22:24:48,144 - INFO - Fetch completed. Total items: 63
+2026-04-02 22:24:48,474 - INFO - Batch fetch completed. Unique items: 373. Saved to: runtime_data/poi_data_3000m_20260402.csv
+2026-04-02 22:24:48,649 - INFO - Map with markers generated successfully: heatmap_Tier1_20260402.html
+2026-04-02 22:24:48,649 - INFO - Generated map for Tier1: heatmap_Tier1_20260402.html (152 points)
+2026-04-02 22:24:48,782 - INFO - Map with markers generated successfully: heatmap_Tier2_20260402.html
+2026-04-02 22:24:48,782 - INFO - Generated map for Tier2: heatmap_Tier2_20260402.html (115 points)
+2026-04-02 22:24:48,902 - INFO - Map with markers generated successfully: heatmap_Tier3_20260402.html
+2026-04-02 22:24:48,902 - INFO - Generated map for Tier3: heatmap_Tier3_20260402.html (99 points)
+2026-04-02 22:26:39,732 - INFO - Initiating batch fetch for 11 POI categories.
+2026-04-02 22:26:39,732 - INFO - [1/11] Fetching type: 090102
+2026-04-02 22:26:39,732 - INFO - Starting POI fetch for type: 090102 at 117.188582,39.149033
+2026-04-02 22:26:39,937 - INFO - Page 1 fetched successfully (25 items)
+2026-04-02 22:26:40,340 - INFO - Page 2 fetched successfully (13 items)
+2026-04-02 22:26:40,718 - INFO - Fetch completed. Total items: 38
+2026-04-02 22:26:41,019 - INFO - [2/11] Fetching type: 090300
+2026-04-02 22:26:41,020 - INFO - Starting POI fetch for type: 090300 at 117.188582,39.149033
+2026-04-02 22:26:41,350 - INFO - Page 1 fetched successfully (25 items)
+2026-04-02 22:26:41,910 - INFO - Page 2 fetched successfully (25 items)
+2026-04-02 22:26:42,295 - INFO - Page 3 fetched successfully (25 items)
+2026-04-02 22:26:42,736 - INFO - Page 4 fetched successfully (25 items)
+2026-04-02 22:26:43,196 - INFO - Page 5 fetched successfully (18 items)
+2026-04-02 22:26:43,738 - INFO - Fetch completed. Total items: 118
+2026-04-02 22:26:44,039 - INFO - [3/11] Fetching type: 090400
+2026-04-02 22:26:44,040 - INFO - Starting POI fetch for type: 090400 at 117.188582,39.149033
+2026-04-02 22:26:44,516 - INFO - Page 1 fetched successfully (6 items)
+2026-04-02 22:26:44,932 - INFO - Fetch completed. Total items: 6
+2026-04-02 22:26:45,232 - INFO - [4/11] Fetching type: 090202
+2026-04-02 22:26:45,233 - INFO - Starting POI fetch for type: 090202 at 117.188582,39.149033
+2026-04-02 22:26:45,493 - INFO - Page 1 fetched successfully (25 items)
+2026-04-02 22:26:45,936 - INFO - Page 2 fetched successfully (25 items)
+2026-04-02 22:26:46,348 - INFO - Page 3 fetched successfully (25 items)
+2026-04-02 22:26:46,779 - INFO - Page 4 fetched successfully (25 items)
+2026-04-02 22:26:47,169 - INFO - Fetch completed. Total items: 100
+2026-04-02 22:26:47,470 - INFO - [5/11] Fetching type: 090203
+2026-04-02 22:26:47,470 - INFO - Starting POI fetch for type: 090203 at 117.188582,39.149033
+2026-04-02 22:26:47,681 - INFO - Page 1 fetched successfully (14 items)
+2026-04-02 22:26:48,070 - INFO - Fetch completed. Total items: 14
+2026-04-02 22:26:48,371 - INFO - [6/11] Fetching type: 090205
+2026-04-02 22:26:48,371 - INFO - Starting POI fetch for type: 090205 at 117.188582,39.149033
+2026-04-02 22:26:48,558 - INFO - Fetch completed. Total items: 0
+2026-04-02 22:26:48,859 - INFO - [7/11] Fetching type: 090206
+2026-04-02 22:26:48,860 - INFO - Starting POI fetch for type: 090206 at 117.188582,39.149033
+2026-04-02 22:26:49,039 - INFO - Fetch completed. Total items: 0
+2026-04-02 22:26:49,340 - INFO - [8/11] Fetching type: 090207
+2026-04-02 22:26:49,341 - INFO - Starting POI fetch for type: 090207 at 117.188582,39.149033
+2026-04-02 22:26:49,670 - INFO - Page 1 fetched successfully (1 items)
+2026-04-02 22:26:50,057 - INFO - Fetch completed. Total items: 1
+2026-04-02 22:26:50,359 - INFO - [9/11] Fetching type: 090208
+2026-04-02 22:26:50,359 - INFO - Starting POI fetch for type: 090208 at 117.188582,39.149033
+2026-04-02 22:26:50,544 - INFO - Fetch completed. Total items: 0
+2026-04-02 22:26:50,846 - INFO - [10/11] Fetching type: 090100
+2026-04-02 22:26:50,848 - INFO - Starting POI fetch for type: 090100 at 117.188582,39.149033
+2026-04-02 22:26:51,076 - INFO - Page 1 fetched successfully (25 items)
+2026-04-02 22:26:51,520 - INFO - Page 2 fetched successfully (25 items)
+2026-04-02 22:26:52,017 - INFO - Page 3 fetched successfully (25 items)
+2026-04-02 22:26:52,422 - INFO - Page 4 fetched successfully (25 items)
+2026-04-02 22:26:52,900 - INFO - Page 5 fetched successfully (25 items)
+2026-04-02 22:26:53,362 - INFO - Page 6 fetched successfully (17 items)
+2026-04-02 22:26:53,783 - INFO - Fetch completed. Total items: 142
+2026-04-02 22:26:54,084 - INFO - [11/11] Fetching type: 090101
+2026-04-02 22:26:54,085 - INFO - Starting POI fetch for type: 090101 at 117.188582,39.149033
+2026-04-02 22:26:54,312 - INFO - Page 1 fetched successfully (25 items)
+2026-04-02 22:26:54,757 - INFO - Page 2 fetched successfully (25 items)
+2026-04-02 22:26:55,187 - INFO - Page 3 fetched successfully (13 items)
+2026-04-02 22:26:55,628 - INFO - Fetch completed. Total items: 63
+2026-04-02 22:26:55,942 - INFO - Batch fetch completed. Unique items: 373. Saved to: runtime_data/poi_data_3000m_20260402.csv
+2026-04-02 22:26:56,003 - INFO - Map with markers generated successfully: heatmap_Tier1_20260402.html
+2026-04-02 22:26:56,004 - INFO - Generated map for Tier1: heatmap_Tier1_20260402.html (44 points)
+2026-04-02 22:26:56,124 - INFO - Map with markers generated successfully: heatmap_Tier2_20260402.html
+2026-04-02 22:26:56,124 - INFO - Generated map for Tier2: heatmap_Tier2_20260402.html (115 points)
+2026-04-02 22:26:56,235 - INFO - Map with markers generated successfully: heatmap_Tier3_20260402.html
+2026-04-02 22:26:56,235 - INFO - Generated map for Tier3: heatmap_Tier3_20260402.html (99 points)
+2026-04-02 22:28:03,091 - INFO - Checking cache: runtime_data/poi_data_3000m_20260402.csv
+2026-04-02 22:28:03,093 - INFO - Cache hit with typecode. Loading data.
+2026-04-02 22:28:03,152 - INFO - Map with markers generated successfully: heatmap_Tier1_20260402.html
+2026-04-02 22:28:03,153 - INFO - Generated map for Tier1: heatmap_Tier1_20260402.html (44 points)
+2026-04-02 22:28:03,286 - INFO - Map with markers generated successfully: heatmap_Tier2_20260402.html
+2026-04-02 22:28:03,286 - INFO - Generated map for Tier2: heatmap_Tier2_20260402.html (115 points)
+2026-04-02 22:28:03,403 - INFO - Map with markers generated successfully: heatmap_Tier3_20260402.html
+2026-04-02 22:28:03,403 - INFO - Generated map for Tier3: heatmap_Tier3_20260402.html (99 points)
+2026-04-02 22:28:29,339 - INFO - Checking cache: runtime_data/poi_data_3000m_20260402.csv
+2026-04-02 22:28:29,341 - INFO - Cache hit with typecode. Loading data.
+2026-04-02 22:28:29,400 - INFO - Map with markers generated successfully: heatmap_Tier1_20260402.html
+2026-04-02 22:28:29,400 - INFO - Generated map for Tier1: heatmap_Tier1_20260402.html (44 points)
+2026-04-02 22:28:27,060 - INFO - Map with markers generated successfully: heatmap_Tier2_20260402.html
+2026-04-02 22:28:27,060 - INFO - Generated map for Tier2: heatmap_Tier2_20260402.html (115 points)
+2026-04-02 22:28:27,176 - INFO - Map with markers generated successfully: heatmap_Tier3_20260402.html
+2026-04-02 22:28:27,176 - INFO - Generated map for Tier3: heatmap_Tier3_20260402.html (99 points)
+2026-04-02 22:36:27,190 - INFO - Generated map for Tier1: heatmap_Tier1_20260402.html
+2026-04-02 22:36:27,589 - INFO - Generated map for Tier2: heatmap_Tier2_20260402.html
+2026-04-02 22:36:28,003 - INFO - Generated map for Tier3: heatmap_Tier3_20260402.html
+2026-04-02 22:43:45,411 - INFO - Checking cache: runtime_data/poi_data_3000m_20260402.csv
+2026-04-02 22:43:45,413 - INFO - Cache hit with typecode. Loading data.
+2026-04-02 22:43:45,472 - INFO - Map with markers generated successfully: heatmap_Tier1_20260402.html
+2026-04-02 22:43:45,472 - INFO - Generated map for Tier1: heatmap_Tier1_20260402.html (44 points)
+2026-04-02 22:43:45,611 - INFO - Map with markers generated successfully: heatmap_Tier2_20260402.html
+2026-04-02 22:43:45,611 - INFO - Generated map for Tier2: heatmap_Tier2_20260402.html (116 points)
+2026-04-02 22:43:45,729 - INFO - Map with markers generated successfully: heatmap_Tier3_20260402.html
+2026-04-02 22:43:45,729 - INFO - Generated map for Tier3: heatmap_Tier3_20260402.html (99 points)
+2026-04-02 22:50:20,394 - INFO - ========== Processing Module: Medical ==========
+2026-04-02 22:50:20,395 - INFO - Batch fetching 11 categories for Medical.
+2026-04-02 22:50:20,395 - INFO - [1/11] Fetching: 090102
+2026-04-02 22:50:20,395 - INFO - Starting POI fetch for type: 090102 at 117.188622,39.149301
+2026-04-02 22:50:21,081 - INFO - Page 1 fetched successfully (25 items)
+2026-04-02 22:50:21,520 - INFO - Page 2 fetched successfully (13 items)
+2026-04-02 22:50:21,921 - INFO - Fetch completed. Total items: 38
+2026-04-02 22:50:22,236 - INFO - [2/11] Fetching: 090300
+2026-04-02 22:50:22,237 - INFO - Starting POI fetch for type: 090300 at 117.188622,39.149301
+2026-04-02 22:50:22,470 - INFO - Page 1 fetched successfully (25 items)
+2026-04-02 22:50:22,921 - INFO - Page 2 fetched successfully (25 items)
+2026-04-02 22:50:23,370 - INFO - Page 3 fetched successfully (25 items)
+2026-04-02 22:50:23,822 - INFO - Page 4 fetched successfully (25 items)
+2026-04-02 22:50:24,250 - INFO - Page 5 fetched successfully (16 items)
+2026-04-02 22:50:24,700 - INFO - Fetch completed. Total items: 116
+2026-04-02 22:50:25,001 - INFO - [3/11] Fetching: 090400
+2026-04-02 22:50:25,002 - INFO - Starting POI fetch for type: 090400 at 117.188622,39.149301
+2026-04-02 22:50:25,204 - INFO - Page 1 fetched successfully (6 items)
+2026-04-02 22:50:25,603 - INFO - Fetch completed. Total items: 6
+2026-04-02 22:50:25,907 - INFO - [4/11] Fetching: 090202
+2026-04-02 22:50:25,907 - INFO - Starting POI fetch for type: 090202 at 117.188622,39.149301
+2026-04-02 22:50:26,180 - INFO - Page 1 fetched successfully (25 items)
+2026-04-02 22:50:26,643 - INFO - Page 2 fetched successfully (25 items)
+2026-04-02 22:50:27,124 - INFO - Page 3 fetched successfully (25 items)
+2026-04-02 22:50:27,625 - INFO - Page 4 fetched successfully (24 items)
+2026-04-02 22:50:28,157 - INFO - Fetch completed. Total items: 99
+2026-04-02 22:50:28,462 - INFO - [5/11] Fetching: 090203
+2026-04-02 22:50:28,463 - INFO - Starting POI fetch for type: 090203 at 117.188622,39.149301
+2026-04-02 22:50:28,679 - INFO - Page 1 fetched successfully (14 items)
+2026-04-02 22:50:29,089 - INFO - Fetch completed. Total items: 14
+2026-04-02 22:50:29,413 - INFO - [6/11] Fetching: 090205
+2026-04-02 22:50:29,413 - INFO - Starting POI fetch for type: 090205 at 117.188622,39.149301
+2026-04-02 22:50:29,596 - INFO - Fetch completed. Total items: 0
+2026-04-02 22:50:29,920 - INFO - [7/11] Fetching: 090206
+2026-04-02 22:50:29,920 - INFO - Starting POI fetch for type: 090206 at 117.188622,39.149301
+2026-04-02 22:50:30,144 - INFO - Fetch completed. Total items: 0
+2026-04-02 22:50:30,467 - INFO - [8/11] Fetching: 090207
+2026-04-02 22:50:30,467 - INFO - Starting POI fetch for type: 090207 at 117.188622,39.149301
+2026-04-02 22:50:30,678 - INFO - Page 1 fetched successfully (1 items)
+2026-04-02 22:50:31,074 - INFO - Fetch completed. Total items: 1
+2026-04-02 22:50:31,398 - INFO - [9/11] Fetching: 090208
+2026-04-02 22:50:31,399 - INFO - Starting POI fetch for type: 090208 at 117.188622,39.149301
+2026-04-02 22:50:31,571 - INFO - Fetch completed. Total items: 0
+2026-04-02 22:50:31,896 - INFO - [10/11] Fetching: 090100
+2026-04-02 22:50:31,898 - INFO - Starting POI fetch for type: 090100 at 117.188622,39.149301
+2026-04-02 22:50:32,452 - INFO - Page 1 fetched successfully (25 items)
+2026-04-02 22:50:32,980 - INFO - Page 2 fetched successfully (25 items)
+2026-04-02 22:50:33,498 - INFO - Page 3 fetched successfully (25 items)
+2026-04-02 22:50:34,284 - INFO - Page 4 fetched successfully (25 items)
+2026-04-02 22:50:35,079 - INFO - Page 5 fetched successfully (25 items)
+2026-04-02 22:50:35,526 - INFO - Page 6 fetched successfully (17 items)
+2026-04-02 22:50:35,990 - INFO - Fetch completed. Total items: 142
+2026-04-02 22:50:36,302 - INFO - [11/11] Fetching: 090101
+2026-04-02 22:50:36,302 - INFO - Starting POI fetch for type: 090101 at 117.188622,39.149301
+2026-04-02 22:50:37,774 - INFO - Page 1 fetched successfully (25 items)
+2026-04-02 22:50:38,405 - INFO - Page 2 fetched successfully (25 items)
+2026-04-02 22:50:39,131 - INFO - Page 3 fetched successfully (12 items)
+2026-04-02 22:50:39,557 - INFO - Fetch completed. Total items: 62
+2026-04-02 22:50:39,892 - INFO - Saved 369 unique items for Medical.
+2026-04-02 22:50:40,091 - INFO - Map with markers generated successfully: map_Medical_Tier1_20260402.html
+2026-04-02 22:50:40,091 - INFO - Generated: map_Medical_Tier1_20260402.html (150 points)
+2026-04-02 22:50:40,231 - INFO - Map with markers generated successfully: map_Medical_Tier2_20260402.html
+2026-04-02 22:50:40,231 - INFO - Generated: map_Medical_Tier2_20260402.html (114 points)
+2026-04-02 22:50:40,351 - INFO - Map with markers generated successfully: map_Medical_Tier3_20260402.html
+2026-04-02 22:50:40,351 - INFO - Generated: map_Medical_Tier3_20260402.html (98 points)
+2026-04-02 22:50:40,351 - INFO - ========== Processing Module: Accommodation ==========
+2026-04-02 22:50:40,351 - INFO - Batch fetching 6 categories for Accommodation.
+2026-04-02 22:50:40,351 - INFO - [1/6] Fetching: 100100
+2026-04-02 22:50:40,351 - INFO - Starting POI fetch for type: 100100 at 117.188622,39.149301
+2026-04-02 22:50:40,666 - INFO - Page 1 fetched successfully (25 items)
+2026-04-02 22:50:41,213 - INFO - Page 2 fetched successfully (25 items)
+2026-04-02 22:50:41,752 - INFO - Page 3 fetched successfully (25 items)
+2026-04-02 22:50:42,322 - INFO - Page 4 fetched successfully (25 items)
+2026-04-02 22:50:43,004 - INFO - Page 5 fetched successfully (25 items)
+2026-04-02 22:50:39,930 - INFO - Page 6 fetched successfully (25 items)
+2026-04-02 22:50:40,539 - INFO - Page 7 fetched successfully (25 items)
+2026-04-02 22:50:41,152 - INFO - Page 8 fetched successfully (25 items)
+2026-04-02 22:50:41,618 - INFO - Fetch completed. Total items: 200
+2026-04-02 22:50:41,943 - INFO - [2/6] Fetching: 100101
+2026-04-02 22:50:41,943 - INFO - Starting POI fetch for type: 100101 at 117.188622,39.149301
+2026-04-02 22:50:42,129 - INFO - Fetch completed. Total items: 0
+2026-04-02 22:50:42,445 - INFO - [3/6] Fetching: 100102
+2026-04-02 22:50:42,445 - INFO - Starting POI fetch for type: 100102 at 117.188622,39.149301
+2026-04-02 22:50:42,690 - INFO - Page 1 fetched successfully (8 items)
+2026-04-02 22:50:43,096 - INFO - Fetch completed. Total items: 8
+2026-04-02 22:50:43,411 - INFO - [4/6] Fetching: 100103
+2026-04-02 22:50:43,412 - INFO - Starting POI fetch for type: 100103 at 117.188622,39.149301
+2026-04-02 22:50:43,616 - INFO - Page 1 fetched successfully (4 items)
+2026-04-02 22:50:44,032 - INFO - Fetch completed. Total items: 4
+2026-04-02 22:50:44,357 - INFO - [5/6] Fetching: 100104
+2026-04-02 22:50:44,358 - INFO - Starting POI fetch for type: 100104 at 117.188622,39.149301
+2026-04-02 22:50:44,595 - INFO - Page 1 fetched successfully (8 items)
+2026-04-02 22:50:45,034 - INFO - Fetch completed. Total items: 8
+2026-04-02 22:50:45,361 - INFO - [6/6] Fetching: 100105
+2026-04-02 22:50:45,362 - INFO - Starting POI fetch for type: 100105 at 117.188622,39.149301
+2026-04-02 22:50:45,650 - INFO - Page 1 fetched successfully (25 items)
+2026-04-02 22:50:46,203 - INFO - Page 2 fetched successfully (25 items)
+2026-04-02 22:50:46,658 - INFO - Page 3 fetched successfully (8 items)
+2026-04-02 22:50:47,110 - INFO - Fetch completed. Total items: 58
+2026-04-02 22:50:47,422 - INFO - Saved 225 unique items for Accommodation.
+2026-04-02 22:50:47,437 - INFO - Map with markers generated successfully: map_Accommodation_Luxury_20260402.html
+2026-04-02 22:50:47,437 - INFO - Generated: map_Accommodation_Luxury_20260402.html (8 points)
+2026-04-02 22:50:47,456 - INFO - Map with markers generated successfully: map_Accommodation_Business_20260402.html
+2026-04-02 22:50:47,456 - INFO - Generated: map_Accommodation_Business_20260402.html (11 points)
+2026-04-02 22:50:47,709 - INFO - Map with markers generated successfully: map_Accommodation_Budget_20260402.html
+2026-04-02 22:50:47,709 - INFO - Generated: map_Accommodation_Budget_20260402.html (205 points)
+2026-04-02 22:57:57,428 - INFO - ========== Processing Module: Medical ==========
+2026-04-02 22:57:57,431 - INFO - Cache hit for Medical. Loading.
+2026-04-02 22:57:57,623 - INFO - Map with markers generated successfully: map_Medical_Tier1_20260402.html
+2026-04-02 22:57:57,624 - INFO - Generated: map_Medical_Tier1_20260402.html (150 points)
+2026-04-02 22:57:57,758 - INFO - Map with markers generated successfully: map_Medical_Tier2_20260402.html
+2026-04-02 22:57:57,758 - INFO - Generated: map_Medical_Tier2_20260402.html (114 points)
+2026-04-02 22:57:57,877 - INFO - Map with markers generated successfully: map_Medical_Tier3_20260402.html
+2026-04-02 22:57:57,878 - INFO - Generated: map_Medical_Tier3_20260402.html (98 points)
+2026-04-02 22:57:57,878 - INFO - ========== Processing Module: Accommodation ==========
+2026-04-02 22:57:57,879 - INFO - Cache hit for Accommodation. Loading.
+2026-04-02 22:57:58,156 - INFO - Map with markers generated successfully: map_Accommodation_General_20260402.html
+2026-04-02 22:57:58,156 - INFO - Generated: map_Accommodation_General_20260402.html (224 points)
+2026-04-02 23:01:06,598 - INFO - ========== Processing Module: Medical ==========
+2026-04-02 23:01:06,599 - INFO - Batch fetching 10 categories for Medical.
+2026-04-02 23:01:06,599 - INFO - [1/10] Fetching: 090102
+2026-04-02 23:01:06,599 - INFO - Starting POI fetch for type: 090102 at 117.188622,39.149301
+2026-04-02 23:01:06,854 - INFO - Page 1 fetched successfully (25 items)
+2026-04-02 23:01:07,275 - INFO - Page 2 fetched successfully (13 items)
+2026-04-02 23:01:07,685 - INFO - Fetch completed. Total items: 38
+2026-04-02 23:01:07,999 - INFO - [2/10] Fetching: 090400
+2026-04-02 23:01:08,000 - INFO - Starting POI fetch for type: 090400 at 117.188622,39.149301
+2026-04-02 23:01:08,211 - INFO - Page 1 fetched successfully (6 items)
+2026-04-02 23:01:08,634 - INFO - Fetch completed. Total items: 6
+2026-04-02 23:01:08,959 - INFO - [3/10] Fetching: 090202
+2026-04-02 23:01:08,960 - INFO - Starting POI fetch for type: 090202 at 117.188622,39.149301
+2026-04-02 23:01:09,221 - INFO - Page 1 fetched successfully (25 items)
+2026-04-02 23:01:09,678 - INFO - Page 2 fetched successfully (25 items)
+2026-04-02 23:01:10,153 - INFO - Page 3 fetched successfully (25 items)
+2026-04-02 23:01:10,623 - INFO - Page 4 fetched successfully (24 items)
+2026-04-02 23:01:11,070 - INFO - Fetch completed. Total items: 99
+2026-04-02 23:01:11,394 - INFO - [4/10] Fetching: 090203
+2026-04-02 23:01:11,395 - INFO - Starting POI fetch for type: 090203 at 117.188622,39.149301
+2026-04-02 23:01:11,613 - INFO - Page 1 fetched successfully (14 items)
+2026-04-02 23:01:09,511 - INFO - Fetch completed. Total items: 14
+2026-04-02 23:01:09,814 - INFO - [5/10] Fetching: 090205
+2026-04-02 23:01:09,814 - INFO - Starting POI fetch for type: 090205 at 117.188622,39.149301
+2026-04-02 23:01:10,030 - INFO - Fetch completed. Total items: 0
+2026-04-02 23:01:10,333 - INFO - [6/10] Fetching: 090206
+2026-04-02 23:01:10,333 - INFO - Starting POI fetch for type: 090206 at 117.188622,39.149301
+2026-04-02 23:01:10,549 - INFO - Fetch completed. Total items: 0
+2026-04-02 23:01:10,874 - INFO - [7/10] Fetching: 090207
+2026-04-02 23:01:10,875 - INFO - Starting POI fetch for type: 090207 at 117.188622,39.149301
+2026-04-02 23:01:11,062 - INFO - Page 1 fetched successfully (1 items)
+2026-04-02 23:01:11,472 - INFO - Fetch completed. Total items: 1
+2026-04-02 23:01:11,779 - INFO - [8/10] Fetching: 090208
+2026-04-02 23:01:11,780 - INFO - Starting POI fetch for type: 090208 at 117.188622,39.149301
+2026-04-02 23:01:11,968 - INFO - Fetch completed. Total items: 0
+2026-04-02 23:01:12,293 - INFO - [9/10] Fetching: 090100
+2026-04-02 23:01:12,294 - INFO - Starting POI fetch for type: 090100 at 117.188622,39.149301
+2026-04-02 23:01:12,536 - INFO - Page 1 fetched successfully (25 items)
+2026-04-02 23:01:12,982 - INFO - Page 2 fetched successfully (25 items)
+2026-04-02 23:01:13,447 - INFO - Page 3 fetched successfully (25 items)
+2026-04-02 23:01:13,969 - INFO - Page 4 fetched successfully (25 items)
+2026-04-02 23:01:14,469 - INFO - Page 5 fetched successfully (25 items)
+2026-04-02 23:01:14,959 - INFO - Page 6 fetched successfully (17 items)
+2026-04-02 23:01:15,402 - INFO - Fetch completed. Total items: 142
+2026-04-02 23:01:15,708 - INFO - [10/10] Fetching: 090101
+2026-04-02 23:01:15,708 - INFO - Starting POI fetch for type: 090101 at 117.188622,39.149301
+2026-04-02 23:01:15,988 - INFO - Page 1 fetched successfully (25 items)
+2026-04-02 23:01:16,477 - INFO - Page 2 fetched successfully (25 items)
+2026-04-02 23:01:16,919 - INFO - Page 3 fetched successfully (12 items)
+2026-04-02 23:01:17,340 - INFO - Fetch completed. Total items: 62
+2026-04-02 23:01:17,660 - INFO - Saved 260 unique items for Medical.
+2026-04-02 23:01:17,731 - INFO - Map with markers generated successfully: map_Medical_Tier1_20260402.html
+2026-04-02 23:01:17,731 - INFO - Generated: map_Medical_Tier1_20260402.html (44 points)
+2026-04-02 23:01:17,884 - INFO - Map with markers generated successfully: map_Medical_Tier2_20260402.html
+2026-04-02 23:01:17,885 - INFO - Generated: map_Medical_Tier2_20260402.html (114 points)
+2026-04-02 23:01:18,018 - INFO - Map with markers generated successfully: map_Medical_Tier3_20260402.html
+2026-04-02 23:01:18,018 - INFO - Generated: map_Medical_Tier3_20260402.html (98 points)
+2026-04-02 23:01:18,018 - INFO - ========== Processing Module: Accommodation ==========
+2026-04-02 23:01:18,025 - INFO - Cache hit for Accommodation. Loading.
+2026-04-02 23:01:18,319 - INFO - Map with markers generated successfully: map_Accommodation_General_20260402.html
+2026-04-02 23:01:18,319 - INFO - Generated: map_Accommodation_General_20260402.html (224 points)
+2026-04-02 23:03:04,694 - INFO - ========== Processing Module: Medical ==========
+2026-04-02 23:03:04,700 - INFO - Cache hit for Medical. Loading.
+2026-04-02 23:03:04,769 - INFO - Map with markers generated successfully: map_Medical_Tier1_20260402.html
+2026-04-02 23:03:04,769 - INFO - Generated: map_Medical_Tier1_20260402.html (44 points)
+2026-04-02 23:03:04,910 - INFO - Map with markers generated successfully: map_Medical_Tier2_20260402.html
+2026-04-02 23:03:04,910 - INFO - Generated: map_Medical_Tier2_20260402.html (114 points)
+2026-04-02 23:03:05,030 - INFO - Map with markers generated successfully: map_Medical_Tier3_20260402.html
+2026-04-02 23:03:05,030 - INFO - Generated: map_Medical_Tier3_20260402.html (98 points)
+2026-04-02 23:03:05,030 - INFO - ========== Processing Module: Accommodation ==========
+2026-04-02 23:03:05,030 - INFO - Batch fetching 5 categories for Accommodation.
+2026-04-02 23:03:05,030 - INFO - [1/5] Fetching: 100101
+2026-04-02 23:03:05,030 - INFO - Starting POI fetch for type: 100101 at 117.188622,39.149301
+2026-04-02 23:03:05,344 - INFO - Fetch completed. Total items: 0
+2026-04-02 23:03:05,669 - INFO - [2/5] Fetching: 100102
+2026-04-02 23:03:05,671 - INFO - Starting POI fetch for type: 100102 at 117.188622,39.149301
+2026-04-02 23:03:05,914 - INFO - Page 1 fetched successfully (8 items)
+2026-04-02 23:03:06,313 - INFO - Fetch completed. Total items: 8
+2026-04-02 23:03:06,636 - INFO - [3/5] Fetching: 100103
+2026-04-02 23:03:06,638 - INFO - Starting POI fetch for type: 100103 at 117.188622,39.149301
+2026-04-02 23:03:06,857 - INFO - Page 1 fetched successfully (4 items)
+2026-04-02 23:03:07,295 - INFO - Fetch completed. Total items: 4
+2026-04-02 23:03:07,620 - INFO - [4/5] Fetching: 100104
+2026-04-02 23:03:07,622 - INFO - Starting POI fetch for type: 100104 at 117.188622,39.149301
+2026-04-02 23:03:07,902 - INFO - Page 1 fetched successfully (8 items)
+2026-04-02 23:03:08,360 - INFO - Fetch completed. Total items: 8
+2026-04-02 23:03:08,685 - INFO - [5/5] Fetching: 100105
+2026-04-02 23:03:08,687 - INFO - Starting POI fetch for type: 100105 at 117.188622,39.149301
+2026-04-02 23:03:08,997 - INFO - Page 1 fetched successfully (25 items)
+2026-04-02 23:03:09,534 - INFO - Page 2 fetched successfully (25 items)
+2026-04-02 23:03:09,986 - INFO - Page 3 fetched successfully (8 items)
+2026-04-02 23:03:08,173 - INFO - Fetch completed. Total items: 58
+2026-04-02 23:03:08,504 - INFO - Saved 77 unique items for Accommodation.
+2026-04-02 23:03:08,610 - INFO - Map with markers generated successfully: map_Accommodation_General_20260402.html
+2026-04-02 23:03:08,610 - INFO - Generated: map_Accommodation_General_20260402.html (77 points)
+2026-04-02 23:22:51,491 - INFO - ========== Processing Module: Medical ==========
+2026-04-02 23:22:51,497 - INFO - Cache hit for Medical. Loading.
+2026-04-02 23:22:51,562 - INFO - Map with markers generated successfully: map_Medical_Tier1_20260402.html
+2026-04-02 23:22:51,563 - INFO - Generated: map_Medical_Tier1_20260402.html (44 points)
+2026-04-02 23:22:51,700 - INFO - Map with markers generated successfully: map_Medical_Tier2_20260402.html
+2026-04-02 23:22:51,700 - INFO - Generated: map_Medical_Tier2_20260402.html (114 points)
+2026-04-02 23:22:51,820 - INFO - Map with markers generated successfully: map_Medical_Tier3_20260402.html
+2026-04-02 23:22:51,820 - INFO - Generated: map_Medical_Tier3_20260402.html (98 points)
+2026-04-02 23:22:51,820 - INFO - ========== Processing Module: Accommodation ==========
+2026-04-02 23:22:51,825 - INFO - Cache hit for Accommodation. Loading.
+2026-04-02 23:22:51,926 - INFO - Map with markers generated successfully: map_Accommodation_General_20260402.html
+2026-04-02 23:22:51,926 - INFO - Generated: map_Accommodation_General_20260402.html (77 points)
+2026-04-02 23:22:51,926 - INFO - ========== Processing Module: ScenicSpots ==========
+2026-04-02 23:22:51,931 - INFO - Batch fetching 1 categories for ScenicSpots.
+2026-04-02 23:22:51,932 - INFO - [1/1] Fetching: 110000
+2026-04-02 23:22:51,932 - INFO - Starting POI fetch for type: 110000 at 117.188622,39.149301
+2026-04-02 23:22:52,253 - INFO - Page 1 fetched successfully (25 items)
+2026-04-02 23:22:52,723 - INFO - Page 2 fetched successfully (25 items)
+2026-04-02 23:22:53,180 - INFO - Page 3 fetched successfully (25 items)
+2026-04-02 23:22:53,706 - INFO - Page 4 fetched successfully (25 items)
+2026-04-02 23:22:54,264 - INFO - Page 5 fetched successfully (25 items)
+2026-04-02 23:22:54,774 - INFO - Page 6 fetched successfully (25 items)
+2026-04-02 23:22:55,271 - INFO - Page 7 fetched successfully (25 items)
+2026-04-02 23:22:55,752 - INFO - Page 8 fetched successfully (25 items)
+2026-04-02 23:22:56,167 - INFO - Fetch completed. Total items: 200
+2026-04-02 23:22:56,477 - INFO - Saved 199 unique items for ScenicSpots.
+2026-04-02 23:22:56,702 - INFO - Map with markers generated successfully: map_ScenicSpots_General_20260402.html
+2026-04-02 23:22:56,706 - INFO - Generated: map_ScenicSpots_General_20260402.html (196 points)
