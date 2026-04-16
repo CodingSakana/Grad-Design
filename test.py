@@ -18,6 +18,9 @@ logger = logging.getLogger(__name__)
 data_dir = Path("runtime_data")
 data_dir.mkdir(exist_ok=True, parents=True)
 
+output_dir = Path("output")
+output_dir.mkdir(exist_ok=True, parents=True)
+
 AMAP_KEY = 'e5ed0b10440dd15c1d7e217443fad499'
 LOCATION = '117.188622,39.149301'   # Tianjin Sancha River Estuary (Long, Lat)
 RADIUS = 3000                       # Search radius in meters
@@ -27,9 +30,9 @@ POI_MODULES = {
     'Medical': {
         'types': '090102|090400|090202|090203|090205|090206|090207|090208|090100|090101',
         'tiers': {
-            'Tier1': ['090102', '090400'],
+            'Tier1': ['090101', '090400'],
             'Tier2': ['090202', '090203', '090205', '090206', '090207', '090208'],
-            'Tier3': ['090100', '090101']
+            'Tier3': ['090100', '090102']
         },
         'styles': {
             'Tier1': ('green', 'medkit'),
@@ -57,6 +60,42 @@ POI_MODULES = {
         'styles': {
             'General': ('green', 'leaf'),
             'default': ('green', 'leaf')
+        }
+    },
+    'Lifestyle_Support': {
+        'types': '060700|120304',
+        'tiers': {
+            'Market': ['0607'],
+            'Community': ['1203']
+        },
+        'styles': {
+            'Market': ('orange', 'shopping-basket'),
+            'Community': ('cadetblue', 'users'),
+            'default': ('orange', 'info-sign')
+        }
+    },
+    'Wellness_Welfare': {
+        'types': '071501|110101',
+        'tiers': {
+            'NursingHome': ['0715'],
+            'Park': ['1101']
+        },
+        'styles': {
+            'NursingHome': ('purple', 'heart'),
+            'Park': ('green', 'leaf'),
+            'default': ('purple', 'info-sign')
+        }
+    },
+    'Transport_Access': {
+        'types': '150500|150700',
+        'tiers': {
+            'Subway': ['1505'],
+            'Bus': ['1507']
+        },
+        'styles': {
+            'Subway': ('blue', 'train'),
+            'Bus': ('red', 'bus'),
+            'default': ('blue', 'info-sign')
         }
     }
     }
@@ -182,6 +221,11 @@ def generate_heatmap(poi_data: List[Dict], center_location: str, output_file: st
     # Initialize map
     m = folium.Map(location=[base_lat_wgs, base_lng_wgs], zoom_start=14, tiles='CartoDB positron')
     
+    # Create Feature Groups for optional layers
+    marker_group = folium.FeatureGroup(name='地点详情标记 (圆圈)', show=True)
+    label_group = folium.FeatureGroup(name='地点名称标注 (常显)', show=False)
+    heat_group = folium.FeatureGroup(name='分布热力图', show=True)
+
     # Dynamic style mapping
     def get_style(typecode: str) -> Tuple[str, str]:
         if not typecode: return style_defs.get('default', ('gray', 'info-sign'))
@@ -203,31 +247,19 @@ def generate_heatmap(poi_data: List[Dict], center_location: str, output_file: st
     </div>
     """
 
-    # Mark the center
+    # Mark the center (always visible as reference)
     folium.Marker(
         location=[base_lat_wgs, base_lng_wgs],
         popup='Project Site: Sancha River Estuary',
         tooltip='Project Site: Sancha River Estuary',
-        # icon=folium.Icon(color='white', icon_color='gray', icon='circle-o', prefix='fa')
         icon=folium.DivIcon(html=site_html)
     ).add_to(m)
     
-    # Add markers for each POI
+    # Add markers for each POI to the marker_group
     for _, row in df.iterrows():
-        color, icon_name = get_style(str(row.get('typecode', '')))
-        
-        # Mapping tier colors to standard HEX for CircleMarker
-        hex_colors = {
-            'green': '#27AE60',
-            'orange': '#E67E22',
-            'red': '#C0392B',
-            'purple': '#8E44AD',
-            'blue': '#2980B9',
-            'cadetblue': '#5D6D7E'
-        }
-        marker_color = hex_colors.get(color, '#3498DB')
+        # Keep consistent green color for all markers as requested
+        marker_color = '#27AE60' 
 
-        # Styled Popup HTML
         popup_content = f"""
         <div style="font-family: Arial, sans-serif; min-width: 150px;">
             <strong style="color: {marker_color}; font-size: 14px;">{row['name']}</strong><br>
@@ -237,34 +269,50 @@ def generate_heatmap(poi_data: List[Dict], center_location: str, output_file: st
         </div>
         """
 
+        # 1. Add the Circle Marker (Details on hover/click)
         folium.CircleMarker(
             location=[row['lat'], row['lng']],
-            radius=6,                # 增大半径使其易于点击
-            color=marker_color,      # 边框颜色
-            weight=1,                # 细边框
+            radius=6,
+            color=marker_color,
+            weight=1,
             fill=True,
-            fill_color=marker_color, # 填充对应的梯队颜色
-            fill_opacity=0.4,        # 较低的透明度，保持轻盈感
+            fill_color=marker_color,
+            fill_opacity=0.4,
             popup=folium.Popup(popup_content, max_width=300),
-            tooltip=row['name']      # 悬浮显示名称
-        ).add_to(m)
+            tooltip=row['name']
+        ).add_to(marker_group)
 
-    # Prepare heat data
+        # 2. Add the Permanent Label (Text only, in a separate group)
+        folium.Marker(
+            location=[row['lat'], row['lng']],
+            icon=folium.DivIcon(
+                html=f'<div style="font-size: 9pt; color: #2C3E50; font-weight: bold; text-shadow: 0 0 3px white; white-space: nowrap;">{row["name"]}</div>',
+                icon_anchor=(-10, 10) # Offset to the side of the circle
+            )
+        ).add_to(label_group)
+
+    # Prepare heat data and add to heat_group
     heat_data = df[['lat', 'lng']].values.tolist()
+    HeatMap(heat_data, radius=15, blur=10, max_zoom=1).add_to(heat_group)
     
-    # Add HeatMap (optional: keep it for density visualization)
-    HeatMap(heat_data, radius=15, blur=10, max_zoom=1).add_to(m)
+    # Add groups to map
+    marker_group.add_to(m)
+    label_group.add_to(m)
+    heat_group.add_to(m)
+    
+    # Add Layer Control to toggle layers
+    folium.LayerControl(collapsed=False).add_to(m)
     
     m.save(output_file)
     logger.info(f"Map with markers generated successfully: {output_file}")
 
 # ================= 5. Main Execution =================
 if __name__ == '__main__':
-    current_date = datetime.now().strftime("%Y%m%d")
+    current_month = datetime.now().strftime("%Y%m")
     
     for module_name, config in POI_MODULES.items():
         logger.info(f"========== Processing Module: {module_name} ==========")
-        csv_filename = f'poi_{module_name}_{RADIUS}m_{current_date}.csv'
+        csv_filename = f'poi_{module_name}_{RADIUS}m_{current_month}.csv'
         csv_path = data_dir / csv_filename
         
         data = []
@@ -308,8 +356,9 @@ if __name__ == '__main__':
                 ]
                 
                 if tier_data:
-                    html_file = f'map_{module_name}_{tier_name}_{current_date}.html'
-                    generate_heatmap(tier_data, LOCATION, html_file, config['tiers'], config['styles'])
-                    logger.info(f"Generated: {html_file} ({len(tier_data)} points)")
+                    html_filename = f'map_{module_name}_{tier_name}_{current_month}.html'
+                    html_path = output_dir / html_filename
+                    generate_heatmap(tier_data, LOCATION, str(html_path), config['tiers'], config['styles'])
+                    logger.info(f"Generated: {html_path} ({len(tier_data)} points)")
         else:
             logger.error(f"No data for module {module_name}.")
